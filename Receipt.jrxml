@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.9.0.final using JasperReports Library version 6.9.0-cb8f9004be492ccc537180b49c026951f4220bf3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Receipt" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="36a3f619-f6c5-420e-accb-14390329d217">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="slNo" class="java.lang.String"/>
+	<field name="aptNo" class="java.lang.String"/>
+	<field name="amountDigit" class="java.lang.Integer"/>
+	<field name="amountText" class="java.lang.String"/>
+	<field name="paymentType" class="java.lang.String"/>
+	<field name="paymentFor" class="java.lang.String"/>
+	<field name="paymentDate" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="749" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+			<rectangle>
+				<reportElement x="0" y="0" width="549" height="349" uuid="5996864c-508e-4b6c-8d53-6884e3a59720"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="60" y="10" width="440" height="40" uuid="d955bf65-20ca-447d-8754-20dea0526197"/>
+				<textElement textAlignment="Left">
+					<font size="19"/>
+				</textElement>
+				<text><![CDATA[Kalpana Paradise Owners Association]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="61" y="35" width="208" height="18" uuid="5ba6e30b-0605-4ac0-9c4d-01b19e766288"/>
+				<text><![CDATA[#114, 9th cross, Kodihalli, Bangalore 560008]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="81" width="480" height="50" uuid="ac89c461-8545-4ec9-b520-0c0483ca0958"/>
+				<textElement>
+					<font fontName="Segoe Print"/>
+				</textElement>
+				<text><![CDATA[Received with thanks from M/s]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="115" width="480" height="50" uuid="05dc028c-8c9f-4fe8-9050-36e5252ad3a2"/>
+				<textElement>
+					<font fontName="Segoe Print"/>
+				</textElement>
+				<text><![CDATA[Sum of Rupees]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="51" y="183" width="163" height="27" uuid="bf678bee-f97b-4d35-959e-1eb1de46eecd"/>
+				<textElement>
+					<font fontName="Segoe Print"/>
+				</textElement>
+				<text><![CDATA[By Cash / Cheque No. ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="51" y="215" width="480" height="50" uuid="f042999e-6383-4471-b149-f8aabc989d47"/>
+				<textElement>
+					<font fontName="Segoe Print"/>
+				</textElement>
+				<text><![CDATA[Towards]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="247" width="240" height="26" uuid="7112df81-8823-4c24-8e36-e7171945d3ff"/>
+				<textElement>
+					<font fontName="SansSerif"/>
+				</textElement>
+				<text><![CDATA[For KALPANA PARADISE OWNERS ASSOCIATION]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="50" y="268" width="180" height="40" uuid="6730c32a-ff44-492d-ac9c-3a51238e15cf"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="60" y="278" width="30" height="20" uuid="51c38cb0-5244-445b-adb5-3054c6728d24"/>
+				<text><![CDATA[Rs.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="340" y="318" width="130" height="20" uuid="c0639707-b2ef-49a7-9d6f-c649ed7c3238"/>
+				<text><![CDATA[Treasurer]]></text>
+			</staticText>
+			<line>
+				<reportElement x="214" y="93" width="305" height="1" uuid="89951d27-2bcc-4410-8bd9-763554e9bb33"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="132" y="131" width="387" height="1" uuid="97031e1a-a410-4443-81a2-cc2f10d240cc"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="50" y="165" width="469" height="1" uuid="4d3be68e-528a-412e-959f-2ffd38be2b5f"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="100" y="233" width="419" height="1" uuid="73f5868e-8282-4746-ade1-c9f9d947ba3e"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="161" y="198" width="209" height="1" uuid="4d5f1e38-e7e5-45c3-9cf4-92f5fadaefe2"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="410" y="197" width="109" height="1" uuid="d5a5b701-f105-4819-957f-977d57d80587"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="403" y="52" width="60" height="20" uuid="8cdef040-500b-478f-90c2-b8cd32d45c31"/>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+			<line>
+				<reportElement x="430" y="61" width="89" height="1" uuid="ac908246-bec8-4b46-ba89-e27958df6e31"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="403" y="31" width="100" height="30" uuid="e556507b-851e-465d-9d22-82fc00b16ccc"/>
+				<text><![CDATA[No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="377" y="182" width="163" height="27" uuid="0ee1524b-70c1-4c90-bdca-ac0c64e67e59"/>
+				<textElement>
+					<font fontName="Segoe Print"/>
+				</textElement>
+				<text><![CDATA[Dated]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="437" y="28" width="100" height="18" forecolor="#FF2A26" uuid="0e504cb5-914c-43fa-9a6c-4db6474c5e70"/>
+				<textFieldExpression><![CDATA[$F{slNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="437" y="48" width="100" height="30" forecolor="#2E0A82" uuid="8c650854-7f57-477e-b72a-372b7c8476ac"/>
+				<textFieldExpression><![CDATA[$F{paymentDate}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="250" y="76" width="100" height="30" forecolor="#2E0A82" uuid="aa78638e-0ef8-4e89-9819-1797a95051f9"/>
+				<textFieldExpression><![CDATA[$F{aptNo}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="138" y="113" width="368" height="30" forecolor="#2E0A82" uuid="b76293ef-1f4d-4d32-ac0b-f5eedd58c7d4"/>
+				<textFieldExpression><![CDATA[$F{amountText}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="107" y="215" width="100" height="30" forecolor="#2E0A82" uuid="6732422d-07ec-4037-88f7-db2fbfd1efe6"/>
+				<textFieldExpression><![CDATA[$F{paymentFor}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="171" y="182" width="100" height="30" forecolor="#2E0A82" uuid="67eb6857-1d42-4bb3-bd1e-d164b6525a01"/>
+				<textFieldExpression><![CDATA[$F{paymentType}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="90" y="278" width="100" height="30" forecolor="#2E0A82" uuid="6761edb1-6231-496d-9b87-53285207fdb3"/>
+				<textFieldExpression><![CDATA[$F{amountDigit}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="3" y="400" width="549" height="349" forecolor="#2E0A82" uuid="a0d83bc8-9ad7-442a-8d62-514d80c470b8"/>
+				<graphicElement>
+					<pen lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="63" y="410" width="440" height="40" uuid="bf417bb0-9268-4e4e-b0b4-e760ad258ca9"/>
+				<textElement textAlignment="Left">
+					<font size="19"/>
+				</textElement>
+				<text><![CDATA[Kalpana Paradise Owners Association]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="64" y="435" width="208" height="18" uuid="f0e55b67-4431-4951-aa92-c818837b12f0"/>
+				<text><![CDATA[#114, 9th cross, Kodihalli, Bangalore 560008]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="53" y="481" width="480" height="50" uuid="e715a6ad-665b-4ab1-a034-9db7ec34b94d"/>
+				<textElement>
+					<font fontName="Segoe Print"/>
+				</textElement>
+				<text><![CDATA[Received with thanks from M/s]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="53" y="515" width="480" height="50" uuid="069e71df-4014-4caf-ba38-9cb082064caf"/>
+				<textElement>
+					<font fontName="Segoe Print"/>
+				</textElement>
+				<text><![CDATA[Sum of Rupees]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="54" y="583" width="163" height="27" uuid="2a706145-c662-4fa6-b835-d0bbaf5769c3"/>
+				<textElement>
+					<font fontName="Segoe Print"/>
+				</textElement>
+				<text><![CDATA[By Cash / Cheque No. ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="54" y="615" width="480" height="50" uuid="59fc10fb-f608-4c24-8ed4-f5d33482a91d"/>
+				<textElement>
+					<font fontName="Segoe Print"/>
+				</textElement>
+				<text><![CDATA[Towards]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="293" y="647" width="240" height="26" uuid="4c4c4dfc-9afc-4603-8355-980c6f876b87"/>
+				<textElement>
+					<font fontName="SansSerif"/>
+				</textElement>
+				<text><![CDATA[For KALPANA PARADISE OWNERS ASSOCIATION]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="53" y="668" width="180" height="40" uuid="6bde7f00-6651-4a58-b775-d6560a88a8d6"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="63" y="678" width="30" height="20" uuid="aeef757d-9bdb-41e3-ab35-c0b60a738f92"/>
+				<text><![CDATA[Rs.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="343" y="718" width="130" height="20" uuid="33ff1d5b-67a9-45a6-af61-e73d2d1120f0"/>
+				<text><![CDATA[Treasurer]]></text>
+			</staticText>
+			<line>
+				<reportElement x="217" y="493" width="305" height="1" uuid="2bc2f5dc-1078-4889-bce8-35ef8223c2a2"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="135" y="531" width="387" height="1" uuid="58292785-4a89-465f-b225-79181d44472c"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="53" y="565" width="469" height="1" uuid="a668c550-c735-4f6f-8854-38ad1799a9e8"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="103" y="633" width="419" height="1" uuid="9487801c-535f-4e22-9c43-d48d877f75a2"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="164" y="598" width="209" height="1" uuid="fce76a3d-e191-40f5-9296-7f2e9ab9429c"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="413" y="597" width="109" height="1" uuid="dee3b894-1434-4d51-b577-be5f49067972"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="406" y="452" width="60" height="20" uuid="39178f32-f8b9-4bd7-94f7-73f30e6d5617"/>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+			<line>
+				<reportElement x="433" y="461" width="89" height="1" uuid="935c5a35-ca6a-46e9-8116-5e62056f614f"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="406" y="431" width="100" height="30" uuid="d09f5060-719a-4dde-a23e-b9b99c27297f"/>
+				<text><![CDATA[No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="582" width="163" height="27" uuid="b0924b17-cccd-451c-a803-95b46a68dc96"/>
+				<textElement>
+					<font fontName="Segoe Print"/>
+				</textElement>
+				<text><![CDATA[Dated]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="440" y="428" width="100" height="18" forecolor="#FF2A26" uuid="fcb7c43f-690c-4e21-9f4e-176a3727cb25"/>
+				<textFieldExpression><![CDATA[$F{slNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="448" width="100" height="30" forecolor="#2E0A82" uuid="cabff225-c7b7-4ec2-be08-bb6993c6f22d"/>
+				<textFieldExpression><![CDATA[$F{paymentDate}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="253" y="476" width="100" height="30" forecolor="#2E0A82" uuid="0154dbe3-8f90-4639-a2a3-45d44ca020da"/>
+				<textFieldExpression><![CDATA[$F{aptNo}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="141" y="513" width="378" height="30" forecolor="#2E0A82" uuid="4564e266-ec7d-42d5-abf6-70aaa1d1e945"/>
+				<textFieldExpression><![CDATA[$F{amountText}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="110" y="615" width="100" height="30" forecolor="#2E0A82" uuid="59bcc9e4-87e0-4cbf-ae75-cb2a1f9a2368"/>
+				<textFieldExpression><![CDATA[$F{paymentFor}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="174" y="582" width="100" height="30" forecolor="#2E0A82" uuid="93e9e083-b363-42ed-9bb8-b6b0fc373fc3"/>
+				<textFieldExpression><![CDATA[$F{paymentType}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="93" y="678" width="100" height="30" forecolor="#2E0A82" uuid="ed29f299-86b2-445e-aeeb-81a815aa4257"/>
+				<textFieldExpression><![CDATA[$F{amountDigit}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="63" y="718" width="100" height="30" uuid="82d1ffb6-de8d-4975-b11d-98e40f629c04"/>
+				<text><![CDATA[Association copy]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-1" y="384" width="549" height="1" uuid="29faa6a8-c0cf-4cca-bc83-3bcac2084c44"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+		</band>
+	</detail>
+</jasperReport>
